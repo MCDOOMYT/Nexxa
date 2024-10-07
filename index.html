@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexxa FF</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ffcc00;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .button-group a {
+            color: #ffcc00;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #ffcc00;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+            margin: 10px 0; /* Adds space between buttons */
+            display: inline-block;
+        }
+        a:hover {
+            background: #ffcc00;
+            color: #121212;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nexxa quick Links</h1>
+    <p>Moja ar Moja 😊!</p>
+</header>
+
+<div class="container">
+    <h2>Available Links</h2>
+    <div class="button-group">
+        <a href="https://ytmp3s.nu/ld8l/" target="_blank">Song Download</a><br>
+        <a href="#" id="titlesLink">Titles | Texts</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy;.                     Labib_9x. All rights reserved.</p>
+</footer>
+
+<script>
+    document.getElementById('titlesLink').onclick = function() {
+        window.location.href = 'titles.html'; // Redirect to 'titles.html'
+    };
+</script>
+
+</body>
+</html>
